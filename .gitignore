@@ -4,7 +4,7 @@
 # Don't ignore those files
 !*.v
 !*.bdf
-!*.latex
+!*.tex
 !*.jpeg
 !*.jpg
 !*.png

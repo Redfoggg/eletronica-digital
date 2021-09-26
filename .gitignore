@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Don't ignore those files
+!*.v
+!*.bdf
+!*.latex
+!*.jpeg
+!*.jpg
+!*.png
+!*.sv
+!.gitignore
+!*/

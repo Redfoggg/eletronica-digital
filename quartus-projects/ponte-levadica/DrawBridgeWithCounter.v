@@ -1,7 +1,5 @@
-`include "CarsCounter.v"
-
 module DrawBridge(Clk, Reset, CAIN, CAO, MD, PB, BS, H, L, MT, AL, TFL);
-input Clk, Reset, CAIN, CAO, CIB, MD, PB, BS, H, L; // mode, powerButton, boatSensor, high, low
+input Clk, Reset, CAIN, CAO, MD, PB, BS, H, L; // mode, powerButton, boatSensor, high, low
 output reg MT, AL, TFL; // motor, alarm, trafficLigth
 wire CIB; // carsInBridge
 
@@ -203,7 +201,7 @@ begin
           AL = 1'b0;
           TFL = 1'b1;
       end
-      6'b00?001: bgin
+      6'b00?001: begin
           FutureState = Flat;
           MT = 1'b0;
           AL = 1'b0;

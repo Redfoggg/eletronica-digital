@@ -1,5 +1,5 @@
 module CarCounter(CarIn, CarOut, ExistCar, Clk, Reset);
-  input CarIn, CarOut, Clk;
+  input CarIn, CarOut, Clk, Reset;
   output reg ExistCar;
 
   reg [3:0] Cars;
